@@ -50,8 +50,6 @@ public class TrackMessageSizeDecoder implements ReplayDecoder {
 
     @Override
     public List<String> decode(Event type, String message) {
-        if (type.equals(Event.MESSAGE)) {
-
             if (skipFirstMessage.getAndSet(false)) return empty;
             LinkedList<String> messages = new LinkedList<String>();
 
@@ -86,8 +84,5 @@ public class TrackMessageSizeDecoder implements ReplayDecoder {
             }
 
             return messages;
-        } else {
-            return empty;
-        }
     }
 }
