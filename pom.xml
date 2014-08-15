@@ -14,11 +14,11 @@
     <description>
         wAsync: A WebSockets/HTTP Client Library
     </description>
-    <url>http://github.com/Atmosphere/wasync</url>
+    <url>http://github.com/wollodev/wasync</url>
     <scm>
-        <connection>scm:git:git@github.com:Atmosphere/wasync.git</connection>
-        <developerConnection>scm:git:git@github.com:Atmosphere/wasync.git</developerConnection>
-        <url>http://github.com/Atmosphere/wasync</url>
+        <connection>scm:git:git@github.com:wollodev/wasync.git</connection>
+        <developerConnection>scm:git:git@github.com:wollodev/wasync.git</developerConnection>
+        <url>http://github.com/wollodev/wasync</url>
     </scm>
     <prerequisites>
         <maven>2.2.0</maven>
